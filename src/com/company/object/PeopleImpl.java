@@ -6,6 +6,12 @@ public class PeopleImpl implements People {
     private int stamina = 100;
     private int intellect = 50;
 
+    private String name;
+
+    public PeopleImpl(String name){
+        this.name = name;
+    }
+
     @Override
     public void talking(String sentence) {
         if (stamina < 0) {
@@ -43,6 +49,10 @@ public class PeopleImpl implements People {
 
     public void readCount() {
         System.out.println("행동 횟수 : " + count);
+    }
+
+    public String getName() {
+        return this.name;
     }
 
     private void addStamina(int value) {

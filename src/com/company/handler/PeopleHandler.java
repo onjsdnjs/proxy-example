@@ -9,7 +9,13 @@ import java.lang.reflect.Method;
 
 public class PeopleHandler implements InvocationHandler {
 
-    private final People original = new PeopleImpl();
+    private final People original;
+    private final String peopleName;
+
+    public PeopleHandler(PeopleImpl people){
+        this.original = people;
+        this.peopleName = people.getName();
+    }
 
     @Override
     public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
@@ -22,7 +28,7 @@ public class PeopleHandler implements InvocationHandler {
     }
 
     private void before() {
-        System.out.println(">>>>> 활동을 시작합니다.");
+        System.out.println(">>>>> "+peopleName+"의 활동을 시작합니다.");
         original.nowState();
     }
 
@@ -36,6 +42,6 @@ public class PeopleHandler implements InvocationHandler {
         }
 
         original.nowState();
-        System.out.println(">>>>> 활동을 종료합니다.\n\n");
+        System.out.println(">>>>> "+peopleName+"의 활동을 종료합니다.\n\n");
     }
 }
