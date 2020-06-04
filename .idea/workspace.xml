@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6f5706b-9b0f-4b28-b494-42c8668c37ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="b6f5706b-9b0f-4b28-b494-42c8668c37ab" name="Default Changelist" comment="name 변수를 추가하여 각 객체를 구별할 수 있도록 변경">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-example.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/handler/PeopleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/handler/PeopleHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/object/MethodName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/object/MethodName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/object/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/object/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/object/PeopleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/object/PeopleImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +28,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,14 +56,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.118353345" />
     <property name="project.structure.side.proportion" value="0.2021904" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.handler" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="proxy-example.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="proxy-example" />
@@ -96,8 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -124,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591254027870</updated>
-      <workItem from="1591254030677" duration="13296000" />
+      <workItem from="1591254030677" duration="18289000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1591254156279</created>
@@ -182,7 +181,35 @@
       <option name="project" value="LOCAL" />
       <updated>1591264688640</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gradle 추가">
+      <created>1591275382122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591275382122</updated>
+    </task>
+    <task id="LOCAL-00010" summary="name 변수를 추가하여 각 객체를 구별할 수 있도록 변경">
+      <created>1591278198860</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591278198860</updated>
+    </task>
+    <task id="LOCAL-00011" summary="기본 생성자 추가">
+      <created>1591280838004</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591280838004</updated>
+    </task>
+    <task id="LOCAL-00012" summary="cglib을 이용한 프록시 생성">
+      <created>1591280877815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591280877815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,8 +222,11 @@
     <MESSAGE value="코드 리팩토링" />
     <MESSAGE value="Enum type 추가" />
     <MESSAGE value="nowState 메소드 추가" />
+    <MESSAGE value="gradle 추가" />
     <MESSAGE value="name 변수를 추가하여 각 객체를 구별할 수 있도록 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="name 변수를 추가하여 각 객체를 구별할 수 있도록 변경" />
+    <MESSAGE value="기본 생성자 추가" />
+    <MESSAGE value="cglib을 이용한 프록시 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="cglib을 이용한 프록시 생성" />
   </component>
   <component name="WindowStateProjectService">
     <state x="591" y="198" key="#/Users/kakao/Documents/workspace/proxy-example/build.gradle" timestamp="1591273283033">
@@ -211,18 +241,22 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="490" y="237" key="#Project_Structure/0.23.1792.1097@0.23.1792.1097" timestamp="1591273400892" />
-    <state x="709" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1591255444924">
+    <state x="709" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1591275841901">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="709" y="288" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1591255444924" />
+    <state x="709" y="288" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1591275841901" />
     <state x="491" y="504" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591273497195">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="491" y="504" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1591273497195" />
-    <state x="221" y="122" width="1330" height="795" key="CommitChangelistDialog2" timestamp="1591275306789">
+    <state x="221" y="122" width="1330" height="795" key="CommitChangelistDialog2" timestamp="1591281349010">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="221" y="122" width="1330" height="795" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1591275306789" />
+    <state x="221" y="122" width="1330" height="795" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1591281349010" />
+    <state x="180" y="122" key="DiffContextDialog" timestamp="1591281306660">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="180" y="122" key="DiffContextDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1591281306660" />
     <state x="748" y="472" key="Github.ShareDialog" timestamp="1591254047372">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -231,46 +265,50 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="648" y="285" key="Github.UntrackedFilesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1591254052846" />
-    <state width="1750" height="295" key="GridCell.Tab.0.bottom" timestamp="1591275198361">
+    <state width="1750" height="224" key="GridCell.Tab.0.bottom" timestamp="1591281392751">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591275198361" />
-    <state width="1750" height="295" key="GridCell.Tab.0.center" timestamp="1591275198360">
+    <state width="1750" height="224" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591281392751" />
+    <state width="1750" height="224" key="GridCell.Tab.0.center" timestamp="1591281392751">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591275198360" />
-    <state width="1750" height="295" key="GridCell.Tab.0.left" timestamp="1591275198360">
+    <state width="1750" height="224" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591281392751" />
+    <state width="1750" height="224" key="GridCell.Tab.0.left" timestamp="1591281392751">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591275198360" />
-    <state width="1750" height="295" key="GridCell.Tab.0.right" timestamp="1591275198360">
+    <state width="1750" height="224" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591281392751" />
+    <state width="1750" height="224" key="GridCell.Tab.0.right" timestamp="1591281392751">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591275198360" />
-    <state width="1750" height="364" key="GridCell.Tab.1.bottom" timestamp="1591257947341">
+    <state width="1750" height="224" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591281392751" />
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom" timestamp="1591275902062">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947341" />
-    <state width="1750" height="364" key="GridCell.Tab.1.center" timestamp="1591257947340">
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591275902062" />
+    <state width="1750" height="364" key="GridCell.Tab.1.center" timestamp="1591275902061">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947340" />
-    <state width="1750" height="364" key="GridCell.Tab.1.left" timestamp="1591257947340">
+    <state width="1750" height="364" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591275902061" />
+    <state width="1750" height="364" key="GridCell.Tab.1.left" timestamp="1591275902061">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947340" />
-    <state width="1750" height="364" key="GridCell.Tab.1.right" timestamp="1591257947340">
+    <state width="1750" height="364" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591275902061" />
+    <state width="1750" height="364" key="GridCell.Tab.1.right" timestamp="1591275902061">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947340" />
-    <state x="382" y="144" key="SettingsEditor" timestamp="1591273088463">
+    <state width="1750" height="364" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591275902061" />
+    <state x="591" y="289" key="RollbackChangesDialog" timestamp="1591280883799">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="382" y="144" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1591273088463" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1591264691000">
+    <state x="591" y="289" key="RollbackChangesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1591280883799" />
+    <state x="382" y="144" width="1351" height="722" key="SettingsEditor" timestamp="1591278069717">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1591264691000" />
+    <state x="382" y="144" width="1351" height="722" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1591278069717" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1591278100023">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1591278100023" />
     <state x="273" y="194" key="new project wizard" timestamp="1591273161476">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
