@@ -1,5 +1,9 @@
 package com.company;
 
+import com.company.handler.PeopleHandler;
+import com.company.object.People;
+import com.company.object.PeopleImpl;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -35,9 +39,14 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Original original = new Original();
+        /*Original original = new Original();
         Handler handler = new Handler(original);
         If f = (If) Proxy.newProxyInstance(If.class.getClassLoader(), new Class[] {If.class}, handler);
-        f.originalMethod("Hallo");
+        f.originalMethod("Hallo");*/
+
+        People people = (People) Proxy.newProxyInstance(People.class.getClassLoader(), new Class[] {People.class}, new PeopleHandler());
+        people.talking("Hello world!");
+        people.eating("chicken");
+        people.studying("math");
     }
 }

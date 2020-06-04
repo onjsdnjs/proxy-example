@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6f5706b-9b0f-4b28-b494-42c8668c37ab" name="Default Changelist" comment="" />
+    <list default="true" id="b6f5706b-9b0f-4b28-b494-42c8668c37ab" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/com/company/handler/PeopleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/object/MethodName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/object/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/object/PeopleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1cqREmmzg8295S7JLz9WkWCASen" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -33,6 +57,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -56,17 +85,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591254027870</updated>
+      <workItem from="1591254030677" duration="3675000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1591254156279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591254156279</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1591254172237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591254172237</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java dynamic proxy 테스트">
+      <created>1591254220791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591254220791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="java dynamic proxy 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="java dynamic proxy 테스트" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="176" key="CommitChangelistDialog2" timestamp="1591254156173">
+    <state x="709" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1591255444924">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="462" y="176" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1591254156173" />
+    <state x="709" y="288" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1591255444924" />
+    <state x="221" y="122" width="1330" height="795" key="CommitChangelistDialog2" timestamp="1591254220690">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="221" y="122" width="1330" height="795" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1591254220690" />
     <state x="748" y="472" key="Github.ShareDialog" timestamp="1591254047372">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -75,9 +136,63 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="648" y="285" key="Github.UntrackedFilesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1591254052846" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1591254148365">
+    <state width="1750" height="295" key="GridCell.Tab.0.bottom" timestamp="1591258008121">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1591254148365" />
+    <state width="1750" height="295" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591258008121" />
+    <state width="1750" height="295" key="GridCell.Tab.0.center" timestamp="1591258008121">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="295" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591258008120" />
+    <state width="1750" height="295" key="GridCell.Tab.0.left" timestamp="1591258008120">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="295" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591258008120" />
+    <state width="1750" height="295" key="GridCell.Tab.0.right" timestamp="1591258008121">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="295" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591258008121" />
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom" timestamp="1591257947341">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947341" />
+    <state width="1750" height="364" key="GridCell.Tab.1.center" timestamp="1591257947340">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947340" />
+    <state width="1750" height="364" key="GridCell.Tab.1.left" timestamp="1591257947340">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947340" />
+    <state width="1750" height="364" key="GridCell.Tab.1.right" timestamp="1591257947340">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591257947340" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1591254232288">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1591254232288" />
+    <state x="658" y="185" key="refactoring.ChangeSignatureDialog" timestamp="1591256879714">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="658" y="185" key="refactoring.ChangeSignatureDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1591256879714" />
+    <state x="561" y="268" key="search.everywhere.popup" timestamp="1591254621343">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="268" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1591254621343" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/object/MethodName.java</url>
+          <line>19</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
