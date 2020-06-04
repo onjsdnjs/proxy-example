@@ -2,13 +2,13 @@ package com.company.object;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
 public enum MethodName {
 
     TALKING("talking"),
     STUDYING("studying"),
-    EATING("eating");
+    EATING("eating"),
+    NOWSTATE("nowState");
 
     private String realName;
 
@@ -16,11 +16,10 @@ public enum MethodName {
         this.realName = realName;
     }
 
-    public static boolean isEquals(String realName, MethodName ...methodNames){
-        MethodName target = MethodName.valueOf(realName.toUpperCase());
+    public boolean isEquals(MethodName... methodNames) {
         List<MethodName> methodNameList = Arrays.asList(methodNames);
 
-        return methodNameList.contains(target);
+        return methodNameList.contains(this.realName);
     }
 
 }
