@@ -8,7 +8,7 @@ public class PeopleImpl implements People {
 
     @Override
     public void talking(String sentence) {
-        if ( stamina < 0 ){
+        if (stamina < 0) {
             System.out.println("에너지가 부족합니다.");
         } else {
             System.out.println(sentence);
@@ -19,25 +19,30 @@ public class PeopleImpl implements People {
 
     @Override
     public void eating(String food) {
-        System.out.println(food+"를 먹었습니다.");
+        System.out.println(food + "를 먹었습니다.");
         addStamina(10);
         ++count;
     }
 
     @Override
     public void studying(String subject) {
-        if ( stamina < 0 ){
+        if (stamina < 0) {
             System.out.println("에너지가 부족합니다.");
-        }else {
-            System.out.println(subject+"를 공부합니다.");
+        } else {
+            System.out.println(subject + "를 공부합니다.");
             minusStamina(20);
             addIntellect(10);
             ++count;
         }
     }
 
-    public void nowState(){
-        System.out.println("스태미너 : "+stamina+"\n지력 : "+intellect);
+    @Override
+    public void nowState() {
+        System.out.println("스태미너 : " + stamina + "\n지력 : " + intellect);
+    }
+
+    public void readCount() {
+        System.out.println("행동 횟수 : " + count);
     }
 
     private void addStamina(int value) {
