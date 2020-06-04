@@ -14,15 +14,28 @@ public class PeopleHandler implements InvocationHandler {
     @Override
     public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
 
-        if(MethodName.isEquals(method.getName(), MethodName.TALKING, MethodName.STUDYING)){
-            method.invoke(original, objects);
+        before();
+        method.invoke(original, objects);
+        after(method);
+
+        return null;
+    }
+
+    private void before() {
+        System.out.println(">>>>> 활동을 시작합니다.");
+        original.nowState();
+    }
+
+    private void after(Method method) {
+        MethodName target = MethodName.valueOf(method.getName().toUpperCase());
+
+        if (target.isEquals(MethodName.TALKING, MethodName.STUDYING)) {
             System.out.println(">> 스태미너를 사용합니다.");
-        }else if(MethodName.isEquals(method.getName(), MethodName.EATING)){
-            method.invoke(original, objects);
+        } else if (target.isEquals(MethodName.EATING)) {
             System.out.println(">> 스태미너가 증가합니다.");
         }
 
-        System.out.println(">>>>> 활동을 종료합니다.");
-        return null;
+        original.nowState();
+        System.out.println(">>>>> 활동을 종료합니다.\n\n");
     }
 }
