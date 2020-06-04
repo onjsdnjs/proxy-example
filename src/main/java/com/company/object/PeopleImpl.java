@@ -8,6 +8,10 @@ public class PeopleImpl implements People {
 
     private String name;
 
+    public PeopleImpl(){
+        this("noNamed");
+    }
+
     public PeopleImpl(String name){
         this.name = name;
     }
